@@ -25,6 +25,8 @@ data(mtcars)
 head(mtcars)
 summary(mtcars)
 plot(mtcars$mpg ~ mtcars$wt)
+linreg = lm(mpg ~ wt, data = mtcars)
+linreg
 ```
 
 
